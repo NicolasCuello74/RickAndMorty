@@ -1,0 +1,58 @@
+/* style.css */
+
+/* Estilo para el contenedor principal del componente Detail */
+.detailContainer {
+    background-color: #c6116c;
+    padding: 20px;
+    border: 1px solid #2e2626;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para los títulos */
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para la imagen */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el texto de "Loading" */
+  .loadingText {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para los elementos que contienen el estado y la especie */
+  .statusSpeciesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  /* Estilo para los elementos de estado y especie */
+  .statusSpecies {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  /* Estilo para el origen */
+  .origin {
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+    margin-top: 10px;
+  }
+  

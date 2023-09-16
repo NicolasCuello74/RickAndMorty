@@ -1,0 +1,60 @@
+.card {
+    border: 1px solid #850887;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify-all;
+    background-color: #850887;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+  /* Estilos para el botón de favorito */
+  .favoriteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .closeButton {
+    background-color: #111412;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el enlace de detalle */
+  .detailLink {
+    text-decoration: none;
+    color: #1ba14c;
+  }
+  
+  /* Estilos para los encabezados */
+  .name{
+    margin: 5px 0;
+    color: aliceblue;
+    text-decoration: solid underline #30013796 4px;
+  }
+  .status,
+  .species,
+  .gender,
+  .origin {
+    margin: 5px 0;
+    color: aliceblue;
+  }
+  
+  /* Estilos para la imagen */
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border-color: aliceblue;
+  }
